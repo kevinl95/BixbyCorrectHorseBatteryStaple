@@ -1,0 +1,3 @@
+integer (entropy) {
+  description (Approximate bits of entropy for the password.)
+}

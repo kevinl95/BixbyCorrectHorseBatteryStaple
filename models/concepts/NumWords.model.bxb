@@ -1,0 +1,3 @@
+integer (NumWords) {
+  description (The number of number of words to use in the password.)
+}

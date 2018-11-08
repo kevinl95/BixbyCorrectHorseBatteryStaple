@@ -1,0 +1,4 @@
+train (t-jarc22fcb456ms173uilakh25) {
+  utterance ("[g:PasswordResult] generate a password with (6)[v:NumWords] words.")
+  plan (jY1BDkBAEARn+Q8n3xBxcZ6lcRhWZkbE7634gE6qb5WikhpJmGeBCkerxqSK0dekhsju0NucD0HVsdmVdOphpzjVP7UFO5Qdv4X23IacMSooZCh/oHfFxwM=)
+}

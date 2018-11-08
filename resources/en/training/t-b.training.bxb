@@ -1,0 +1,8 @@
+train (t-bq67fpse141aw5f68ulny2sz8) {
+  utterance ("[g:PasswordResult] make me a password with (5)[v:NumWords] words")
+  plan (jY1BDkBAEARn+Q8n3xBxcZ6lcRhWZkbE7634gE6qb5WikhpJmGeBCkerxqSK0dekhsju0NucD0HVsdmVdOphpzjVP7UFO5Qdv4X23IacMSooZCh/oHfFxwM=)
+}
+train (t-brx14s0mgtijaliq0ppxyrnai) {
+  utterance ("[g:PasswordResult] I want a password with (10)[v:NumWords] words in it")
+  plan (jY1BDkBAEARn+Q8n3xBxcZ6lcRhWZkbE7634gE6qb5WikhpJmGeBCkerxqSK0dekhsju0NucD0HVsdmVdOphpzjVP7UFO5Qdv4X23IacMSooZCh/oHfFxwM=)
+}

@@ -1,0 +1,8 @@
+ dialog (Concept) {
+   match {
+     // Look for this type
+     NumWords
+   }
+   // Use the following template text with this type
+   template("Number of Words")
+ }

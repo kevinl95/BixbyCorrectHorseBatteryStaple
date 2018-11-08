@@ -1,0 +1,38 @@
+action (generate) {
+  collect{
+    input (numWords) {
+      type (NumWords)
+      min (Required)
+      max (One)
+      // add a default value of four words, like the comic
+       default-init {
+         intent {
+           goal {NumWords}
+           value {
+             NumWords (4)
+           }
+         }
+       }
+      // add a validation dialog prompt when the user indicates less
+       // than 2 sides.
+       validate {
+         if (numWords == 0) {
+           prompt {
+             dialog {
+               template ("You need to have at least one word in your password.")              
+             }
+           }
+         }
+        if (numWords < 0) {
+           prompt {
+             dialog {
+               template ("You need to have at least one word in your password.")              
+             }
+           }
+         }
+       }
+    }
+  } 
+  output (PasswordResult)
+  type (Calculation)
+}

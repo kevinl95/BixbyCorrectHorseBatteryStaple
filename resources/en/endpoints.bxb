@@ -1,0 +1,11 @@
+endpoints {
+   authorization {
+     none
+   }
+   action-endpoints {
+     action-endpoint (generate) {
+       accepted-inputs (numWords)
+       local-endpoint ("generator.js")
+     }
+   }
+}

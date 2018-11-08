@@ -1,0 +1,4 @@
+train (t-9z1l22cc7hqsw1pc9jsblx3ix) {
+  utterance ([g:PasswordResult] generate a password for me)
+  plan (FcTBCYAwEATApKH87EPs4BI3+Dg42T0Ru5fMY0otmwfmdNCtq40gMfIKCt0ywU9pt6PtJr3B84Aez7LU1Q8=)
+}

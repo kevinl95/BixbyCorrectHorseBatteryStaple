@@ -1,0 +1,3 @@
+integer (years) {
+  description (Approximate number of years to guess the password at 1000 guesses per second.)
+}
